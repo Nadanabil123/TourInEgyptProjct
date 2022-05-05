@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    *{ 
+        margin: 0;
+        padding: 0;
+    }body{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-color: burlywood;
+    } .imge{
+        margin-right: 20px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .imge1{
+        margin-top: 7px;
+        margin-right: -26px;
+    }
+    .imge1 img{
+        border-radius: 20px;
+    }
+    
+    .image{
+        float: left;
+        height: 60%;
+        width: 30%;
+        margin: 60px;
+        position:relative;
+    }
+    .containr{
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }    
+    .content{
+        position:absolute;
+       top: 10%;
+       left: 10%;
+       width: 100%;
+       text-align:  center  ;
+        font-size: 80px;
+        text-shadow: 5px 5px 10px #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+    </head>
+    <body>
+        <div class="containr">
+            
+            <img src ="s37.jpg" style="width: 100%;" >
+            
+                <h1 class="content">tanta <br>City</h1>    
+        </div >
+    
+        <div>
+            <img src="s36.jpg" class="image" >
+        
+        
+            <p style="text-align: left;marign: 20px; padding: 65px;color: black;"> 
+                tanta is an Egyptian city, and the capital of Gharbia Governorate. It is 93 km north of Cairo, and 120 km southeast of Alexandria. The ancient Arabs called it "Tantada", and it is an important junction of railways and land, and it is linked to all parts of the country by a good transportation network.
+It is considered the third city in the Delta in terms of area and population after Mahalla al-Kubra and Mansoura, and its most important streets are Army Street (formerly Al-Bahr), Al-Jalaa Street, Al-Nahhas Street, Saeed Street, District Street, 
+and Ali Mubarak Street. It also has a branch of Al-Azhar University and Tanta University, which include many faculties in different disciplines,
+ and there is a small zoo called Al-Montazah.
+                </p>
+       <h2 style="text-align:center;margin-top: 60px;"><b><u>The most famous tourist attractions in the city of Tanta</u></b></h2>
+    <div class="imge">
+        <div class="imge1"> 
+           
+            <img src="s30.jpg"height=320px width="300px">
+            <img src="s31.jpg"height=320px width="300px">
+            <img src="s32.jpg"height=320px width="300px">
+            <img src="s33.jpeg"height=320px width="300px">
+            <img src="s34.jpeg"height=320px width="300px">
+            <img src="s35.jpg"height=320px width="300px">
+            <img src="s36.jpg"height=320px width="300px">
+            <img src="landing3.jpg"height=320px width="300px">
+            <img src="s37.jpg"height=320px width="300px">
+        
+        </div>
+    </div>
+    <button style="float: right;margin-right: 50px;" onclick="myFunction()"> More information about Tanta </button>
+
+<script>
+function myFunction() {
+  document.open();
+  document.write("<h1> Information about the most famous tourist attractions </h1> <p> The Sabil of Ali Bey the Great, the Sabil in Al-Jalaa Street, which is one of the streets in Al-Jalaa Street, and the Sabil returns to the Street of Kings of Egypt in the Mamluk State, and it is on Al-Kabir, and the Sabil was designed</p><br><p>Tanta Theater This theater was designed in the Italian style, and thus the Tanta theater became the third theater built in the Italian way after Sayed Darwish and the Opera theatres Kulthum.</p><br><p>Tanta Museum In the beginning, the museum was a hall in the city council that displayed a number of art and archaeological pieces in 1913 and due to the great archaeological position of Tanta, a special museum was allocated to it located on Moheb Street in 1990, where the museum consists of several floors displaying Islamic and Egyptian antiquities Ancient, Coptic, Roman and other antiquities dating back to ancient times, as well as a large conference hall</p><br><p>Al-Ahmadi Mosque is the most famous mosque in Egypt in general and Tanta in particular. At first, the mosque was a small corner of the Ahmadiyya way. Then came the Mamluk Sultan Al-Ashraf Qaitbay to build a minaret and a dome on the tomb of the mosque. Then, in the twelfth century AH, Ali Bey the Great made three tombs for the Bedouin master. And his student and the imam of the mosque, as well as a special place attached to the mosque for children to learn. The area of ​​the mosque is about 6300 meters and it is square in shape surrounded by corridors from all sides and it has seven doors.</p>");
+  document.close();
+}
+</script>
+
+    </body>
+</html>

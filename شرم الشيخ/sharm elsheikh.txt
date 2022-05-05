@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    *{ 
+        margin: 0;
+        padding: 0;
+    }body{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-color: blanchedalmond;
+    } .imge{
+        margin-right: 20px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .imge1{
+        margin-top: 7px;
+        margin-right: -26px;
+    }
+    .imge1 img{
+        border-radius: 20px;
+    }
+    
+    .image{
+        float: left;
+        height: 60%;
+        width: 30%;
+        margin: 60px;
+        position:relative;
+    }
+    .containr{
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }    
+    .content{
+        position:absolute;
+       top: 10%;
+       left: 10%;
+       width: 100%;
+       text-align: center;
+        font-size: 70px;
+        text-shadow: 5px 5px 10px #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+    </head>
+    <body>
+        <div class="containr">
+            
+            <img src ="landig page.jpg" style="width: 100%;" >
+            
+                <h1 class="content">sharm-Elsheikh<br>City</h1>    
+        </div >
+    
+        <div>
+            <img src="قري-شرم-الشيخ_-1.jpg" class="image" >
+        
+        
+            <p style="text-align: left;marign: 20px; padding: 65px;color: black;"> 
+                Sharm El Sheikh is an Egyptian tourist city, located at the confluence of the Gulfs of Aqaba and Suez on the Red Sea coast. It is famous for being one of the international diving centers that attract amateurs and professionals of this sport. It also includes an international airport, and in front of its coast are the islands of Tiran and Sanafir, and one of its most important areas is Ras Nasrani, Ras Umm Sid, Ras Jamila, Ras Church, Sharm El-Mayah, Nakhlet Al-Tabal, next to Ras Muhammad Protectorate located to the south, Nabq Protectorate between it and Dahab, 
+                and Naama Bay at the confluence of the continents of Asia and Africa
+                </p>
+       <h2 style="text-align:center;margin-top: 60px;"><b><u>The most famous tourist attractions in the city of Sharm-ElSheikh</u></b></h2>
+    <div class="imge">
+        <div class="imge1"> 
+           
+            <img src="s1.jpg"height=320px width="300px">
+            <img src="s2.jpg"height=320px width="300px">
+            <img src="s3.jpg"height=320px width="300px">
+            <img src="s4.jpg"height=320px width="300px">
+            <img src="s5.jpg"height=320px width="300px">
+            <img src="s6.jpg"height=320px width="300px">
+            <img src="s7.jpg"height=320px width="300px">
+            <img src="s8.jpg"height=320px width="300px">
+            <img src="s9.jpg"height=320px width="300px">
+            <img src="s11 (1).jpg"height=320px width="300px">
+            <img src="s11 (2).jpg"height=320px width="300px">
+        </div>
+    </div>
+    <button style="float: right;margin-right: 50px;" onclick="myFunction()"> More information about  Sharm-ElSheikh </button>
+
+<script>
+function myFunction() {
+  document.open();
+  document.write("<h1> Information about the most famous tourist attractions </h1> <p> The old market is considered one of the most beautiful places to visit in Sharm El Sheikh. It includes many cafes and restaurants that serve delicious drinks and food, as well as many shops that sell souvenirs, antiques, local handicrafts, swimming and diving tools. </p><br><p>Ras Mohamed Reserve The area of ​​this nature reserve is about 480 square kilometers, and it is located on the southern tip of the Sinai, and is considered a wonderful tourist destination in Sharm El Sheikh; Because it contains diving and snorkeling sites, 1,000 species of fish, 150 species of crustaceans of different species, and a group of turtles, in addition to its deserts and beaches with clean white sand.</p><br><p>Naama Bay is one of the most important tourist places that can be visited in Sharm El Sheikh, as it achieves the perfect balance that combines relaxation and pleasure by spending a comfortable day on the beach, or doing sunbathing, or other activities,[3] and this bay is located in Sharm El Sheikh Resort Center, surrounded by a white sand beach, palm trees, and many cafes, restaurants, and souvenir shops</p><br><p>Yolanda Coral Reefs: Yolanda Coral Reefs are located in the Ras Mohammed Nature Reserve, and it is one of the most popular diving sites in the northern part of the Red Sea, and divers come to it to explore the remains of Yoland, a Cypriot cargo ship that crashed in 1980 AD.</p><br><p>Saint Catherine's: It is the highest historical destination in the Sinai Peninsula, and is considered one of the oldest monasteries in the world. History lovers can arrange a day trip to the monastery, and the summit of Mount Sinai</p><br><p>Shark League: It contains many distinctive resorts, and five-star hotels, in addition to containing shops, restaurants, and luxurious cafes.</p><br><p>The Zestel Gorm is a huge cargo ship that originated in the English city of Sunderland, but it was sunk near Sharm El-Sheikh during World War II, note that the length of this ship is 129 meters, and thus it is considered one of the largest wreck sites designated for diving in the world</p><br><p>The Sahaba Mosque is considered one of the most prominent architectural masterpieces in the city of Sharm el-Sheikh; It appears in an architectural mixture that combines the Ottoman, Mamluk, and Fatimid architectural styles. It should be noted that this wonderful design was supervised by the famous engineer Fouad Tawfik</p> ");
+  document.close();
+}
+</script>
+
+    </body>
+</html>
