@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    *{ 
+        margin: 0;
+        padding: 0;
+    }body{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-color: rgb(238, 238, 201);
+    } .imge{
+        margin-right: 20px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .imge1{
+        margin-top: 7px;
+        margin-right: -26px;
+    }
+    .imge1 img{
+        border-radius: 20px;
+    }
+    
+    .image{
+        float: left;
+        height: 60%;
+        width: 30%;
+        margin: 60px;
+        position:relative;
+    }
+    .containr{
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }    
+    .content{
+        position:absolute;
+       top: 10%;
+       left: 10%;
+       width: 100%;
+       text-align: top left ;
+        font-size: 70px;
+        text-shadow: 5px 5px 10px #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+    </head>
+    <body>
+        <div class="containr">
+            
+            <img src ="s129.jpg" style="width: 100%;" >
+            
+                <h1 class="content">Port Said <br>Governorate</h1>    
+        </div >
+    
+        <div>
+            <img src="7-6.jpg" class="image" >
+        
+        
+            <p style="text-align: left;marign: 20px; padding: 65px;color: black;"> 
+                Port Said includes many distinctive landmarks, the most important of which are Port Said Port, which is one of the most important ports in Egypt, the Suez Canal Authority building, which is one of the city's most important monuments, and the old Port Said Lighthouse. In addition to many museums such as the Port Said Military Museum, which documents the era of the tripartite aggression against the city, the Port Said National Museum, which displays antiquities from various Egyptian historical periods as well as the history of Port Said since its establishment in 1859 until the modern era, and the Victory Museum of Modern Art, which includes 75 works of art by great masters. Artists of Egypt in various branches of plastic art. Work on the construction of the city began during the reign of Egypt's ruler, Khedive Said, on April 25, 1859,
+                 when Ferdinand de Lesseps began the project of digging the Suez Canal.
+                </p>
+     </div>
+       <h2 style="text-align:center;margin-top: 200px;"><b><u>The most famous tourist attractions in Port Said </u></b></h2>
+    <div class="imge">
+        <div class="imge1"> 
+           
+            <img src="s120.jpg"height=320px width="300px">
+            
+            <img src="s123.jpg"height=320px width="300px">
+            <img src="s124.jpg"height=320px width="300px">
+            <img src="s125.jpg"height=320px width="300px">
+            <img src="s126.jpg"height=320px width="300px">
+            <img src="s127.jpg"height=320px width="300px">
+            <img src="s128.jpg"height=320px width="300px">
+            <img src="s129.jpg"height=320px width="300px">
+            <img src="s130.jpg"height=320px width="300px">
+            <img src="s131.jpg"height=320px width="300px">
+        </div>
+    </div>
+    <button style="float: right;margin-right: 50px;border-color: #000000;" onclick="myFunction()"> More informatiom about port Said </button>
+
+<script>
+function myFunction() {
+  document.open();
+  document.write("<h1> Information about the most famous tourist attractions </h1> <p>Al-Farma is one of the three cities of the old Port Said region according to its administrative borders, where the city of Tina is located to the east, as well as the city of Tennis. The Christian era was called (Birma or Baramoun) and in the Arab-Islamic era it became known as Al-Farma, and its place today is Tell Al-Farma, several kilometers after Port Said. Al-Farma is of great historical importance,  It had a land road up to the island of Cyprus, and it was the eastern key to Egypt. It overlooked the road coming from the desert, and the city was destroyed during the Crusades in 1118 AD. And so the firma disappeared forever </p><br><p>The island of Tenis is an island located in the southwest of Port Said and northeast of Lake Manzala. The word “Tenis” means the island in Greek. The city was distinguished by its abundant abundance of fertile land and water cliffs that do not stop in summer or winter. It includes the archaeological hill of Tenis. The area of ​​the island is about 8 km2 and has antiquities from the Islamic era, and the distance to it takes about half an hour by boat</p><br><p>Memorial Victory, and this museum displays the history of Port Said, its heroisms, and the victories of its people, and inside it is a cinema hall for the major visitors of the governorate.</p><br><p>The National Museum is distinguished by its unique location at the meeting point of the waters of the Suez Canal with the Mediterranean Sea.</p> ");
+  document.close();
+}
+</script>
+
+    </body>
+</html>

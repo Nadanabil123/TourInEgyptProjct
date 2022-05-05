@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>tour in egypt </title>
+<style>
+    body{
+        background-image: url(landing\ page0.jpg);
+        background-size:100% 100% ;
+                background-attachment: fixed;
+            text-decoration-color: black;
+    }
+</style>
+    </head>
+    <body>
+    
+        <div style="text-align: center;margin-top: 40px;">
+       <a href="file:///D:/web%20development/%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D9%87/hurgada.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Hurghada</b></i></button></a>
+
+        <a href="file:///D:/web%20development/%D8%A7%D9%84%D8%A7%D9%82%D8%B5%D8%B1/luxor.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Luxor</b></i></button></a>
+        
+        <a href="file:///D:/web%20development/%D8%A7%D9%84%D9%81%D9%8A%D9%88%D9%85/fayoum.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Fayoum</b></i></button></a>
+        
+        <a href="file:///D:/web%20development/%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D9%87/cairo.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Cairo</b></i></button></a>
+        
+        <a href="file:///D:/web%20development/%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF/port%20said.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Port Said</b></i></button></a>
+        
+        <a href="file:///D:/web%20development/%D8%AC%D9%86%D9%88%D8%A8%20%D8%B3%D9%8A%D9%86%D8%A7/south%20of%20sinaa.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>South Sinia</b></i></button></a>
+        
+        <a href="file:///D:/web%20development/%D8%B4%D8%B1%D9%85%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE/sharm%20elsheikh.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Sharm El-Sheikh</b></i></button></a>
+        
+        <a href="file:///D:/web%20development/%D8%B7%D9%86%D8%B7%D8%A7/tanta.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Tanta</b></i></button></a>
+        
+        <a href="file:///D:/web%20development/%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D9%87/alex.html"<button style="font-size: 20px;margin-right: 40px;color: black;"><i><b>Alexandria</b></i></button></a>
+        <a href="file:///D:/web%20development/%D8%A7%D8%B3%D9%88%D8%A7%D9%86/aswan.html"<button style="font-size: 20px;margin-right: 50px;color: black;"><i><b>Aswan</b></i></button></a>
+    </div>
+    <div style="text-align: center;margin-top: 40px;margin-right: 50px;float: centre;">
+        <h1 style="font-size: 70px;" ><i>Tour      in       egypt</i></h1>
+        </div>
+        <div style="float: bottom;margin-top: 320px;text-align: left;margin-left: 20px;font-size: 20px;">
+        <p><b>Egypt is famous for having one of the oldest civilizations on earth.</b>
+        <br><b>People began to migrate to the banks of the Nile and settled and began cultivating the land</b>
+        <br><b> and raising livestock about 10,000 years ago.</b> 
+        
+            <br>
+            <u><b><i>And that site Deals with  some of Egypt's famous tourist attractions</i></b></u>
+            </b>
+        </p>
+        </div>
+        
+
+    </body>
+</html>

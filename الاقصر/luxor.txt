@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    *{ 
+        margin: 0;
+        padding: 0;
+    }body{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-color: beige;
+    } .imge{
+        margin-right: 20px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+    .imge1{
+        margin-top: 7px;
+        margin-right: -26px;
+    }
+    .imge1 img{
+        border-radius: 20px;
+    }
+    
+    .image{
+        float: left;
+        height: 60%;
+        width: 30%;
+        margin: 60px;
+        position:relative;
+    }
+    .containr{
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }    
+    .content{
+        position:absolute;
+       top: 40%;
+       left: 10%;
+       width: 100%;
+       text-align: top left ;
+        font-size: 70px;
+        text-shadow: 5px 5px 10px #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+    </head>
+    <body>
+        <div class="containr">
+            
+            <img src ="s40.jpg" style="width: 100%;" >
+            
+                <h1 class="content">Luxor<br>City</h1>    
+        </div >
+    
+        <div>
+            <img src="s43.jpg" class="image" >
+        
+        
+            <p style="text-align: left;marign: 20px; padding: 65px;color: black;"> 
+                Luxor is called the city of one hundred gates or the city of the sun, formerly known as Thebes. It is the capital of Egypt in the Pharaonic era. It is located on the banks of the Nile River, which divides it into two halves, the eastern and western lands. It is the capital of Luxor Governorate in southern Egypt. The fourth, around the year 2575 BC, and until the era of the Middle Kingdom was not good more than just a group of simple contiguous huts, and despite that it was used as a cemetery to bury the dead. 
+                Later the capital of Egypt in the era of the Eleventh Egyptian Dynasty at the hands of Pharaoh Mentuhotep
+                </p>
+       <h2 style="text-align:center;margin-top: 200px;"><b><u>The most famous tourist attractions in the luxor city </u></b></h2>
+    <div class="imge">
+        <div class="imge1"> 
+           
+            <img src="s41.jpg"height=320px width="300px">
+            <img src="s42.jpg"height=320px width="300px">
+            <img src="s43.jpg"height=320px width="300px">
+            <img src="s44.jpg"height=320px width="300px">
+            <img src="s45.jpg"height=320px width="300px">
+            <img src="s46.jpg"height=320px width="300px">
+            <img src="s47.jpg"height=320px width="300px">
+            <img src="s48.jpg"height=320px width="300px">
+            <img src="s48.jpg"height=320px width="300px">
+            <img src="s49.jpg"height=320px width="300px">
+        </div>
+    </div>
+    <button style="float: right;margin-right: 50px;" onclick="myFunction()"> More information about Luxor</button>
+
+<script>
+function myFunction() {
+  document.open();
+  document.write("<h1>Information about the most famous tourist attractions</h1> <p>Karnak Temple is a complex of 11 temples, dating back more than 4,500 years; To be the oldest houses of worship known to history, so Karnak Temple is one of the most important archaeological landmarks in Egypt and the most famous in the world The construction of the Karnak Temple continued for about 2000 years, on a total area of ​​about 46 acres, to worship the god “Amun-Ra”, his wife “Mut” and their son, the god “Khonsu”. The construction of Karnak Temple began from the inside from the Holy of Holies, then to the outside, where the lobby of the largest columns in the world, which contains 134 columns, then the entrance to the temple, which is the famous road of rams.One of the most beautiful events in Karnak Temple, which is one of the most important landmarks of Luxor, is the sound and light shows that take place at night, which tell its story in more than one language</p><br><p>Luxor Temple is one of the most prominent temples on the eastern mainland, and is located near the Karnak Temple. Its construction dates back to the era of the Middle Kingdom, by order of King “Amenhotep III”; To serve as the home of the god Amun-Ra.The Luxor Temple is distinguished by its huge facilities, which start with its large gate and the statues of Ramses II sitting on either side of the entrance, and two obelisks, one standing in its place, and the other in the French capital, Paris, since 1836 AD.Then there is the huge edifice of Ramses II with a width of 65 m, after that we will find the huge corridor, which consists of two rows of great papyrus columns, and many distinctive edifices and rooms.The Luxor Temple is also famous historically , which was a major reason for building the Luxor Temple itself, until King Amenhotep confirms his legitimacy to rule by proving his lineage to the god Amun</p><br><p>The Temple of Deir el-Bahari or the Temple of Hatshepsut deservedly deserves the title of Jewel of the Luxor Temples, as it is the largest and most important funerary temple in the era of the Pharaonic state. Tourists come from all over the world; To admire the grandeur of its unique architecture.The temple was built under a rocky slope in the Deir el-Bahari area, which is one of the most important archaeological areas in Luxor, located on the western bank of the Nile. Worship of the god Amun, the sun god. The temple consists of two parts, the outer part is for the living, and the inner part is for the dead.Deir el-Bahari Temple was designed on 3 levels, with open balconies, and built entirely of limestone, in front of the second floor there are several wonderful statues of Queen Hatshepsut and the god Osiris</p><br><p>The Valley of the Queens is located in the far south of the western mainland. It was built in the same architectural style as the Valley of the Kings, and for the same purpose, which is to bury the women of the royal families, princes, princesses and those close to them from the noble class. It is located close to the Valley of the Kings.The most famous tomb in the Valley of the Queens is the tomb of Queen Nefertari, the beloved wife of Ramses II, a beautiful woman whose husband made the most beautiful tomb for her. All the walls of the tomb are decorated with carvings, and murals of incomparable beauty, representing the queen, receiving guidance and direction from the gods</p>");
+  document.close();
+}
+</script>
+
+    </body>
+</html> 
